@@ -51,7 +51,6 @@ public final class Java2DApplication extends JFrame // Setting up the window fra
     private JButton changeSecondColorJButton;
     
 
-
     Point start, end;
 
 
@@ -754,7 +753,6 @@ public final class Java2DApplication extends JFrame // Setting up the window fra
     }
     
 
-    
     
     public class MyRectangle extends MyBoundedShape //MyRectangle class that describes the features of rectangle
     {

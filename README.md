@@ -22,13 +22,13 @@ If the user selects to draw with a gradient, set the Paint on the shape to be a 
 To set the stroke for a line to be drawn, you can use the following code:
 ```
 
-            if (dashCheckBox.isSelected())
-            {
-                stroke = new BasicStroke(lineWidth, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND, 10, dashLength, 0);
-            } else
-            {
-                stroke = new BasicStroke(lineWidth, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND);
-            }
+    if (dashCheckBox.isSelected())
+    {
+        stroke = new BasicStroke(lineWidth, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND, 10, dashLength, 0);
+    } else
+    {
+        stroke = new BasicStroke(lineWidth, BasicStroke.CAP_ROUND, BasicStroke.JOIN_ROUND);
+    }
 ```
 
 Where the first stroke line creates a dashed line and dashLength is a one element float array with the dash length in the first element. The second stroke line creates an undashed line with the line width specified from the GUI.
